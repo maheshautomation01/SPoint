@@ -1,0 +1,20 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TRILLIUM - Test Automation Test Suite">
+
+<listeners>
+<listener class-name="com.sp.qa.ExtentReportListener.ExtentReporterNG" />
+</listeners>
+
+<test name="TRILLIUM Application Test Cases">
+<classes>
+<class name="com.sp.qa.testcases.LoginPageTest"></class>
+<class name="com.sp.qa.testcases.SelectCompanyPageTest"></class>
+<class name="com.sp.qa.testcases.WVRCompnayPageTest"></class>
+<class name="com.sp.qa.testcases.WVRContratProcessLocateContractTest"></class>
+<class name="com.sp.qa.testcases.WVRcontProsCustInfoTest"></class>
+
+</classes>
+</test>
+</suite>
+
